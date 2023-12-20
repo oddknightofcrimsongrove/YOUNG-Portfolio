@@ -1,0 +1,54 @@
+* {
+    box: border-box;
+    padding: 0px;
+    margin: 0px;
+    border-color: #270856;
+}
+
+Body{
+    background-color: aliceblue;
+}
+
+.header{
+    padding:10px;
+    font-family: sans-serif, 'playfair', 'raleway'; 
+    background-color: rgb(10, 10, 35);
+    
+    
+}
+
+.header h1{
+    display:inline;
+    font-size: 50px;
+    justify-content: left;
+    color: aliceblue;
+}
+
+.header nav{
+    padding-top: 15px;
+    margin-right: 10px;
+    justify-content: right;
+    font-family: sans-serif, 'playfair', 'raleway'; 
+    font-size: 15px;
+    box-shadow: inset;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: bisque;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+a {
+    color: #e4e0e8;
+    box-shadow: inset;
+    float: right;
+}
+
+p {
+    font-size: 16px;
+}
