@@ -82,6 +82,48 @@ Body{
     margin: 15px 100px 15px 100px;
     
 }
+
+.navbar{
+    background-color: #2a475e;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+
+.navbar a {
+    float:right;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;
+    text-align: center;
+    width: 25%;
+
+}
+
+.navbar a:hover {
+    background-color: #66c0f4;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
  
 /* I need to sample a potential employee's previous work
 // I load their portfolio
