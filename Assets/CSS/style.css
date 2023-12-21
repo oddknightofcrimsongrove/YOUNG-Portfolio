@@ -1,15 +1,20 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
 }
 
 Body{
     background-color: aliceblue;
     margin: 0;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .header{
   overflow: hidden;
-  background-color: #1b0b7f;
+  background-color: #171a21;
   padding: 20px 10px;
     
     
@@ -31,9 +36,63 @@ Body{
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
-    box-shadow: 0 0 5px darkgray;
 }
 
 
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #2a475e;
+    overflow-x: hidden;
+    padding-top: 150px;
+    line-height: 50px;
+}
 
+.sidenav img{
+    height: 200px ;
+    width: 200px;
+
+}
+
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #c7d5e0;
+    display: block;
+    width: 40%;
+}
+
+.sidenav a:hover {
+    color: #66c0f4;
+}
+
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+
+.main p{
+    display: block;
+    background-color:#2a475e;
+    margin: 15px 100px 15px 100px;
+    
+}
  
+/* I need to sample a potential employee's previous work
+// I load their portfolio
+// I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+// I click one of the links in the navigation
+// the UI scrolls to the corresponding section
+// I click on the link to the section about their work
+// the UI scrolls to a section with titled images of the developer's applications
+// I am presented with the developer's first application
+// that application's image should be larger in size than the others
+// I click on the images of the applications
+// I am taken to that deployed application
+//*I resize the page or view the site on various screens and devices
+//* I am presented with a responsive layout that adapts to my viewport//*
